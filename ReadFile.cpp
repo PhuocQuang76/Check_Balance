@@ -190,7 +190,7 @@ bool ReadFile::check_Slash_Slash(stack<char> *myStack, char c) {
 //        }
 //    return flag;
 //}
-
+//Check single quote comment
 bool ReadFile::check_Single_Comment(stack<char> *myStack, char c){
     bool flag = false;
     if(c == '\''){
